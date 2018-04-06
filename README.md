@@ -10,3 +10,4 @@ This is based on the [Tutorial: Tour of Heroes][2] that has been extended to two
 * `npm run start:brand2` - runs Brand 2 app
 * `npm run test` - runs tests. Contains only a few, but at least I fixed the broken ones from the sample project.
 * `npm run e2e` - runs end-to-end tests. As created by the original Hero app (will run against **Brand 1**)
+[2]: https://angular.io/tutorial
