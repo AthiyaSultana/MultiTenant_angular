@@ -1,0 +1,6 @@
+<div class="messages" *ngIf="messageService.messages.length" [@slideUpAnimation]>
+  <button type="button" (click)="messageService.clear()" class="close-button"><div class="cross"></div></button>
+  <p class="message" *ngFor="let message of messageService.messages">    
+    {{message}}    
+  </p>  
+</div>

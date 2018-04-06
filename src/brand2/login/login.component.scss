@@ -1,0 +1,42 @@
+@import '../styles';
+
+$breakpoint: 50em;
+
+:host {
+  text-align: center;
+  display: block;
+  margin-top: $section-margin;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  margin: $default-spacing;
+
+  @media (min-width: $breakpoint) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+h3 {
+  @include heading($blue);
+}
+
+.col-1-4 {
+  display: flex;
+  justify-content: center;
+  margin: $default-spacing 0;
+  padding: $default-spacing;
+  color: $white;
+  @include button($blue);
+  
+  h4 {
+    margin: $default-spacing;
+  }
+  
+  @media (min-width: $breakpoint) {
+    width: 20%;
+  }
+}
+

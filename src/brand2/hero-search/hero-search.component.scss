@@ -1,0 +1,41 @@
+@import '../styles';
+
+:host {
+  text-align: center;
+  display: block;
+  margin-top: $section-margin;
+}
+
+h3 {
+  @include heading($red);
+}
+
+#search-box {
+  @include input-box($red);
+  font-size: 2em;
+}
+
+.search-result {  
+  padding: 0;    
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    display: inline-block;
+    margin: $default-spacing;
+    color: $blue;
+    text-shadow: 0 1px 1px darken($blue, 20%);
+    font-size: 2em;
+    text-decoration: none;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    &:active {      
+      transform: scale(0.98);
+    }
+  }
+}

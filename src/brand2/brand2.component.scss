@@ -1,0 +1,24 @@
+@import 'styles';
+
+h1 {
+  @include heading($green);
+}
+
+nav {
+  margin: $default-spacing;
+  text-align: center;
+
+  a {    
+    display: inline-block;    
+    margin: $default-spacing 0;
+    padding: $default-spacing;    
+    @include button($white);
+    color: $green;
+    text-shadow: 0 1px 1px darken($green, 50%);
+    font-size: 1.1em;
+
+    &:not(:last-of-type) {
+      margin-right: $default-spacing;
+    }
+  }
+}

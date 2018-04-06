@@ -1,0 +1,43 @@
+@import '../styles';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $section-margin;
+}
+
+.hero {
+  width: 100%;
+  max-width: 30em;
+}
+
+h2 {
+  @include heading($blue);
+}
+input.save-box {
+  @include input-box($blue);
+  font-size: 1.05em;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $default-spacing*2;
+}
+
+button {
+  font-size: 1.05em;
+  padding: 0.2em 0.5em;
+
+  &.save {
+    @include button($blue);
+    color: $white;
+  }
+
+  &.back {
+    @include button($white);
+    color: $green;
+    text-shadow: 0 1px 1px darken($green, 50%);
+  }
+}
