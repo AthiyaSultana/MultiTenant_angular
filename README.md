@@ -1,6 +1,6 @@
 # Multi-app Angular project based on sample Hero app
 
-This is a multi-app Angular project to demonstrate how code can be reused with base components when you want to have shared logic, but different HTML and CSS. Read more in the blog post [Code Sharing with Multi-App Angular Project Using Base Components][1]. 
+This is a multi-app Angular project to demonstrate how code can be reused with base components when you want to have shared logic, but different HTML and CSS.
 
 This is based on the [Tutorial: Tour of Heroes][2] that has been extended to two apps, one named **Brand 1** and one named **Brand 2** that has differnt styling. See `package.json` for all the npm scripts, but here are some of them:
 
@@ -10,6 +10,3 @@ This is based on the [Tutorial: Tour of Heroes][2] that has been extended to two
 * `npm run start:brand2` - runs Brand 2 app
 * `npm run test` - runs tests. Contains only a few, but at least I fixed the broken ones from the sample project.
 * `npm run e2e` - runs end-to-end tests. As created by the original Hero app (will run against **Brand 1**)
-
-[1]: https://www.henriksommerfeld.se/code-sharing-with-multi-app-angular-project-using-base-components/
-[2]: https://angular.io/tutorial
