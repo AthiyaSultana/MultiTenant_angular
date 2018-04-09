@@ -36,6 +36,7 @@
     "express": "^4.16.3",
     "mongoose": "^5.0.13",
     "morgan": "^1.9.0",
+    "my-component-library": "file:../my-component-library/dist/my-component-library-0.0.0.tgz",
     "path": "^0.12.7",
     "rxjs": "^5.5.6",
     "web-animations-js": "^2.3.1",

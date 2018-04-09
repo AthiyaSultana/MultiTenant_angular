@@ -14,6 +14,7 @@ import {MessageService} from 'services/message.service';
 import {MessagesComponent} from './messages/messages.component';
 import {LoginComponent} from './login/login.component';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
+import {HeaderModule} from 'my-component-library';
 // import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
 // import {InMemoryDataService} from '../services/in-memory-data.service';
 
@@ -24,6 +25,7 @@ import {HashLocationStrategy, LocationStrategy} from '@angular/common';
     FormsModule,
     Brand1RoutingModule,
     HttpClientModule,
+    HeaderModule
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
