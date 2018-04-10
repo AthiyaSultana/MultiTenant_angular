@@ -14,7 +14,7 @@ import {MessageService} from 'services/message.service';
 import {MessagesComponent} from './messages/messages.component';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {HeaderModule} from 'my-component-library';
+import {HeaderModule} from 'angular-component-library';
 
 /*import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
 import {InMemoryDataService} from 'services/in-memory-data.service';*/
